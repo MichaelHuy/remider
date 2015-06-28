@@ -1,0 +1,15 @@
+applications:
+- services:
+  - REM-MAS
+  - REM-Push
+  - REM-MobileData
+  - REM-Mobile Quality Assurance
+  - Twilio-mq
+  disk_quota: 1024M
+  host: rem
+  name: REM
+  command: node app.js
+  path: .
+  domain: mybluemix.net
+  instances: 1
+  memory: 640M
